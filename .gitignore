@@ -8,5 +8,5 @@ src/*.fls
 src/*.fdb_latexmk
 src/*.log
 src/*.out
-src/*.pdf
+#src/*.pdf
 src/*.synctex.gz
