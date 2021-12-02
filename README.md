@@ -5,6 +5,12 @@ This is a quick attempt to make a basic latex project template repot that can be
 
 You can potentially think of this as a home rolled Overleaf.
 
+## Usage
+
+- fork the repo
+- launch a Codespace instance (either via VSCode or Github)
+- edit latex files in `src/`
+
 ## Overview
 
 - `.devcontainer/devcontainer.json` is the Codespaces configuration file for what container to use and (VSCode) editor plugins.
