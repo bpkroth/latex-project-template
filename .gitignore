@@ -1,0 +1,9 @@
+.*.swp
+
+src/*.aux
+src/*.blg
+src/*.bbl
+src/*.dvi
+src/*.log
+src/*.pdf
+src/*.out
