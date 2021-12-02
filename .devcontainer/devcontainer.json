@@ -5,6 +5,7 @@
         "tecosaur.latex-utilities",
         "james-yu.latex-workshop",
         "streetsidesoftware.code-spell-checker",
+        "ms-vsliveshare.vsliveshare"
     ],
     "build": {
         "dockerfile": "Dockerfile",
