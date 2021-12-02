@@ -10,6 +10,15 @@ You can potentially think of this as a home rolled Overleaf.
 - fork the repo
 - launch a Codespace instance (either via VSCode or Github)
 - edit latex files in `src/`
+- use "Live Share" for collaborative editing
+    - locally install vim extension if you like, without impacting others :)
+
+## Limitations
+
+- The Latex-Workshop extension is not available in the collaborator views when live sharing, so automatic pdf generation is not available.
+    - Workaround: run `make` from within the `src/` folder in the container's terminal in the codespace.
+- PDF Preview does not work in the browser.
+    - Workaround: right click and download the file to view with a local client as necessary.
 
 ## Overview
 
