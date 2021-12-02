@@ -7,7 +7,7 @@
         "streetsidesoftware.code-spell-checker",
     ],
     "build": {
-        "dockerfile": "../Dockerfile",
+        "dockerfile": "Dockerfile",
         "cacheFrom": [
             //"latex-project-container",
             "dockershelf/latex:full"

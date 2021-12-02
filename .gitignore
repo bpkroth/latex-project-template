@@ -4,6 +4,9 @@ src/*.aux
 src/*.blg
 src/*.bbl
 src/*.dvi
+src/*.fls
+src/*.fdb_latexmk
 src/*.log
-src/*.pdf
 src/*.out
+src/*.pdf
+src/*.synctex.gz

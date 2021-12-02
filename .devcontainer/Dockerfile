@@ -18,7 +18,7 @@ RUN addgroup --gid ${CONTAINER_GID} ${CONTAINER_USER} && \
 # Install some extra packages.
 RUN apt-get update && \
     apt-get -y --no-install-recommends install \
-        vim less \
+        vim less git \
         latex-mk latex-make \
         && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
