@@ -3,7 +3,7 @@
 This is a quick attempt to make a basic latex project template repo that can be used for shared editing in
 [Codespaces](https://code.visualstudio.com/docs/remote/codespaces).
 
-You can potentially think of this as a home rolled Overleaf.
+You can potentially think of this as a home rolled [Overleaf](https://overleaf.com).
 
 ## Updates
 
