@@ -20,6 +20,7 @@ RUN apt-get update && \
     apt-get -y --no-install-recommends install \
         vim less git \
         latex-mk latex-make \
+        texlive-fonts-extra \
         && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
