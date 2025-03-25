@@ -12,6 +12,8 @@ You can potentially think of this as a home rolled [Overleaf](https://overleaf.c
 
     With this changes can be automatically synced to a git repository for others to see.
 
+    > To do this with an Overleaf project, see [Cloning your project as a local repository](https://www.overleaf.com/learn/how-to/Git_integration#Cloning_your_project_as_a_local_repository).
+
     Additionally, with [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) integration, we can also have AI agent assisted edits! 🤖😄
 
 ## Usage
