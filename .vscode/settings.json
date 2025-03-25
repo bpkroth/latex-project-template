@@ -24,5 +24,8 @@
         //"editor.wordWrap": "wordWrapColumn",
         "editor.wordWrap": "off",
         "files.trimTrailingWhitespace": false
-    }
+    },
+    "gitdoc.enabled": true,
+    "gitdoc.autoPullDelay": 2000,
+    "gitdoc.autoCommitDelay": 2000
 }
