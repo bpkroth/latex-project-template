@@ -5,6 +5,15 @@ This is a quick attempt to make a basic latex project template repo that can be 
 
 You can potentially think of this as a home rolled Overleaf.
 
+## Updates
+
+- 2025-03-25
+  - [GitDoc](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gitdoc) extension added.
+
+    With this changes can be automatically synced to a git repository for others to see.
+
+    Additionally, with [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) integration, we can also have AI agent assisted edits! 🤖😄
+
 ## Usage
 
 - fork the repo
