@@ -1,8 +1,5 @@
 {
     "recommendations": [
-        "editorconfig.editorconfig",
-        "streetsidesoftware.code-spell-checker",
-        "gitHub.copilot",
         "ms-vscode-remote.remote-containers"
     ]
 }
