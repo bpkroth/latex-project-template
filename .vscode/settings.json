@@ -26,6 +26,9 @@
         "files.trimTrailingWhitespace": false
     },
     "gitdoc.enabled": true,
-    "gitdoc.autoPullDelay": 2000,
-    "gitdoc.autoCommitDelay": 2000
+    "gitdoc.autoPullDelay": 5000,
+    "gitdoc.autoCommitDelay": 5000,
+    "gitdoc.autoPushDelay": 5000,
+    "gitdoc.ai.enabled": true,
+    "gitdoc.filePattern": "**/*.{tex,bib,pdf}"
 }
