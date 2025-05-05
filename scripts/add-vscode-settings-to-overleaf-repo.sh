@@ -98,7 +98,8 @@ clone_repo() {
     git clone "$GIT_URL" "$DEST_DIR"
 
     if [ $? -ne 0 ]; then
-        echo "Error: Failed to clone repository. Please check your project ID and try again."
+        echo "Error: Failed to clone repository. Please check your project ID and try again." >&2
+        echo "Note: you may need to setup a [Git Authentication Token](https://www.overleaf.com/learn/how-to/Git_Integration) on the [Overleaf Account Settings](https://www.overleaf.com/user/settings) page to do this." >&2
         exit 1
     fi
 
