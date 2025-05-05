@@ -4,24 +4,25 @@ set -e  # Exit immediately if a command exits with a non-zero status
 
 # Display help information
 show_help() {
-    echo "Usage: $0 -i|--id PROJECT_ID -n|--name PROJECT_NAME [-h|--help]"
+    echo "Usage: $0 -i PROJECT_ID -n PROJECT_NAME [-h]"
     echo
     echo "Options:"
-    echo "  -i, --id ID        Overleaf project ID (required)"
-    echo "  -n, --name NAME    Overleaf project name (required)"
-    echo "  -h, --help         Show this help message"
+    echo "  -i ID       Overleaf project ID (required)"
+    echo "  -n NAME     Overleaf project name (required)"
+    echo "  -h          Show this help message"
     echo
     echo "Example:"
     echo "  $0 -i 1234abcd5678 -n my-latex-project"
+    exit 1
 }
 
 # Parse command-line arguments
 parse_args() {
     local options
-    options=$(getopt -o hi:n: --long help,id:,name: -n "$0" -- "$@")
+    options=$(getopt hi:n: "$@")
 
     if [ $? -ne 0 ]; then
-        echo "Failed to parse arguments. See help below."
+        echo "Failed to parse arguments. See help below." >&2
         show_help
         exit 1
     fi
@@ -30,15 +31,15 @@ parse_args() {
 
     while true; do
         case "$1" in
-            -h|--help)
+            -h)
                 show_help
                 exit 0
                 ;;
-            -i|--id)
+            -i)
                 PROJECT_ID="$2"
                 shift 2
                 ;;
-            -n|--name)
+            -n)
                 PROJECT_NAME="$2"
                 shift 2
                 ;;
