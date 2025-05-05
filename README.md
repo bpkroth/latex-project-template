@@ -38,6 +38,34 @@ Where `<project_id>` is the project id from the Overleaf project URL.
 
 For further details see the [manual](#manual) instructions below.
 
+##### Environment Variables for `add-vscode-settings-to-overleaf-repo.sh`
+
+To use this script, you should set the following variables in your `.env` file (or export them in your shell):
+
+| Variable       | Required | Description                                                      |
+|----------------|----------|------------------------------------------------------------------|
+| `PROJECT_ID`   | Yes      | The Overleaf project ID (found in your Overleaf project URL)     |
+| `PROJECT_NAME` | Yes      | The name for your local Overleaf project directory               |
+
+###### Example `.env` file
+
+```env
+PROJECT_ID=your-overleaf-project-id
+PROJECT_NAME=your-project-directory-name
+```
+
+**Notes:**
+- `PROJECT_ID` is the unique identifier for your Overleaf project (e.g., `1234abcd5678`).
+- `PROJECT_NAME` is the directory name you want to use locally for the cloned Overleaf repo (e.g., `my-latex-project`).
+
+You can load these variables in your shell with:
+```sh
+export $(grep -v '^#' .env | xargs)
+```
+or use a tool of your choice.
+
+The script will prompt for any required variables not set.
+
 #### Manual
 
 To integrate this with an [Overleaf](https://www.overleaf.com) project, you first need to `git` access to the project.
