@@ -31,7 +31,7 @@ You can potentially think of this as a home rolled [Overleaf](https://overleaf.c
 #### Automatic
 
 ```sh
-./scripts/add-vscode-settings-to-overleaf-repo.sh --id <project_id> --name <project_name>
+./scripts/add-vscode-settings-to-overleaf-repo.sh -i <project_id> -n <project_name>
 ```
 
 Where `<project_id>` is the project id from the Overleaf project URL.
