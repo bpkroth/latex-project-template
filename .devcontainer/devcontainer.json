@@ -9,7 +9,8 @@
                 "torn4dom4n.latex-support",
                 "streetsidesoftware.code-spell-checker",
                 "ms-vsliveshare.vsliveshare",
-                "vsls-contrib.gitdoc"
+                "vsls-contrib.gitdoc",
+                "GitHub.copilot"
             ]
         }
     },
