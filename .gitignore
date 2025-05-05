@@ -1,12 +1,12 @@
 .*.swp
 
-src/*.aux
-src/*.blg
-src/*.bbl
-src/*.dvi
-src/*.fls
-src/*.fdb_latexmk
-src/*.log
-src/*.out
-#src/*.pdf
-src/*.synctex.gz
+*.aux
+*.blg
+*.bbl
+*.dvi
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+#*.pdf
+*.synctex.gz
