@@ -28,6 +28,18 @@ You can potentially think of this as a home rolled [Overleaf](https://overleaf.c
 
 ### Overleaf Integration
 
+#### Automatic
+
+```sh
+./scripts/add-vscode-settings-to-overleaf-repo.sh -i <project_id> -n <project_name>
+```
+
+Where `<project_id>` is the project id from the Overleaf project URL.
+
+For further details see the [manual](#manual) instructions below.
+
+#### Manual
+
 To integrate this with an [Overleaf](https://www.overleaf.com) project, you first need to `git` access to the project.
 
 [Cloning your project as a local repository](https://www.overleaf.com/learn/how-to/Git_integration#Cloning_your_project_as_a_local_repository) describes how to do this, but in brief you need to:
